@@ -38,7 +38,7 @@ pair<map<int,vector<int>>,map<int,int>> getConnectedComponent(vector<vector<int>
                 vis[k]=true;
                 component[curColor].push_back(k);
                 nodeToComp[k]=curColor;
-                for(int i : adj[k]){
+                for(int i : adj[i]){
                     if(vis[i]==false){
                         dfs.push(i);
                         vis[k]=true;
