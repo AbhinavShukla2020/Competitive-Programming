@@ -5,7 +5,7 @@
 #include <algorithm>
 using namespace std;
 
-map<int,int> groupToIndex;
+
 int getLowest12(int a){
     return (a/12+1)*12;
 }
