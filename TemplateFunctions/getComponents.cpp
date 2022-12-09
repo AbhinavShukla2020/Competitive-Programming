@@ -2,7 +2,7 @@ vector<vector<int>> getComponents(vector<vector<int>> adj){
     //ASSUMING ONE-INDEXED
     //CHANGE TO N=adj.size() IF NOT
     //int N=adj.size()-1;
-    bool vis[N];
+    bool vis[N+1];
     vector<vector<int>> components;
     //ASSUMING ONE-INDEXED. CHANGE IF NEEDED
     for(int i=1;i<=N;i++){
