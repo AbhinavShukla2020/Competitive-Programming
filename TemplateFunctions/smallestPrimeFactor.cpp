@@ -8,7 +8,7 @@ void sieve(){
 	}
 	for(int i=2;i<sqrt(MAXN);i++){
 		if(smallestPrimeFactor[i]==i){
-			for(int j=i*i;j<MAXN;j+=i){
+			for(int j=i*i;j<=MAXN;j+=i){
 				if(smallestPrimeFactor[j]==j){
 					smallestPrimeFactor[j]=i;
 				}
