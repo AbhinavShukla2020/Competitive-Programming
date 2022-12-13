@@ -2,7 +2,7 @@
 //Time complexity: O(nlog(log(n)))
 
 int smallestPrimeFactor[MAXN+1];
-void sieve(){
+void smallestPrimeFactor(){
 	for(int i=0;i<MAXN;i++){
 		smallestPrimeFactor[i]=i;
 	}
