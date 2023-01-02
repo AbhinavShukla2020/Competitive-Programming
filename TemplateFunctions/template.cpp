@@ -1,20 +1,20 @@
 #include <iostream>
 #include <vector>
 #include <set>
+#include <string>
 #include <unordered_set>
 #include <map>
 #include <stack>
 #include <queue>
 #include <algorithm>
 #include <math.h>
-
+ 
 using namespace std;
-
-using ll = long long;
-using pii = pair<ll,ll>;
+ 
+using pii = pair<int,int>;
 using vi = vector<int>;
-using vl = vector<ll>;
 
+#define int int64_t 
 #define pb push_back
 #define FOR(i,a,b) for (int i = (a); i < (b); ++i)
 #define FOR0(i,a) FOR(i,0,a)
