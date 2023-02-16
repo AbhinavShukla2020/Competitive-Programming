@@ -3,10 +3,12 @@
 #include <set>
 #include <string>
 #include <unordered_set>
+#include <unordered_map>
 #include <map>
 #include <stack>
 #include <queue>
 #include <algorithm>
+#include <cassert>
 #include <math.h>
  
 using namespace std;
@@ -14,6 +16,7 @@ using namespace std;
 using pii = pair<int,int>;
 using vi = vector<int>;
 
+#define endl "\n"
 #define int int64_t 
 #define pb push_back
 #define FOR(i,a,b) for (int i = (a); i < (b); ++i)
