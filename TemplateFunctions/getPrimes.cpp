@@ -17,7 +17,6 @@ void getPrimes(){
 	for(int i=2;i<=MAXN;i++){
 		if(isPrime[i]){
 			primes.push_back(i);
-			cout<<i<<endl;
 		}
 	}
 }
