@@ -13,9 +13,6 @@
  
 using namespace std;
  
-using pii = pair<int,int>;
-using vi = vector<int>;
-
 #define endl "\n"
 #define int int64_t 
 #define pb push_back
@@ -24,7 +21,8 @@ using vi = vector<int>;
 #define FOR1(i,a) for (int i = (1); i <= (a); ++i)
 #define TRAV(a,x) for (auto& a: x)
 
-
+using pii = pair<int,int>;
+using vi = vector<int>;
 
 int32_t main(){
 	ios::sync_with_stdio(false);
